@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-banner {
+  background-color: #1e4a41; /* The dark navy color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 40px;
+  font-size: 13px;
+}
+
+.banner-left, .banner-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between items */
+}
+
+.banner-right a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner-right a:hover {
+  text-decoration: underline;
+}
+
+/* The Orange Button */
+.btn-management {
+  background-color: #d35400; /* The specific burnt orange */
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-management:hover {
+  background-color: #e67e22;
+  text-decoration: none !important;
+}
+
+i {
+  margin-right: 5px;
+  font-style: normal;
+}
