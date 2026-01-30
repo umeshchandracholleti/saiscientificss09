@@ -4,8 +4,8 @@ body {
 }
 
 .top-banner {
-  background-color: #1e4a41; /* The dark navy color */
-  color: white;
+background-color: #1e4a41; /* The dark navy color */
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .banner-right a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -44,4 +44,107 @@ body {
 i {
   margin-right: 5px;
   font-style: normal;
+}
+
+/* second row banner styles  */
+
+body { margin: 0; font-family: 'Arial', sans-serif; }
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* TOP BAR */
+.top-bar {
+    background-color: #1e314a;
+    color: white;
+    font-size: 12px;
+    padding: 8px 0;
+}
+
+.contact-info span { margin-right: 20px; }
+
+.top-links { display: flex; gap: 15px; align-items: center; }
+.top-links a { color: white; text-decoration: none; }
+
+.btn-mgmt {
+    background-color: #d35400;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* MAIN HEADER */
+.main-header {
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-flex { gap: 20px; }
+
+.logo-section { display: flex; align-items: center; gap: 20px; }
+.categories { text-align: center; font-size: 11px; cursor: pointer; color: #333; }
+
+.search-container {
+    display: flex;
+    flex-grow: 1;
+    max-width: 500px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-btn {
+    background: #ff6600;
+    border: none;
+    padding: 0 20px;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* SPECIAL DEAL BUTTON */
+.special-deal {
+    background: linear-gradient(to right, #f39c12, #e84393);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-actions { display: flex; align-items: center; gap: 15px; font-size: 13px; color: #444; }
+.header-actions a { color: #444; text-decoration: none; }
+
+.account-dropdown {
+   background: linear-gradient(to right, #f39c12, #e84393);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cart-icon { position: relative; font-size: 24px; }
+.badge {
+    background: linear-gradient(to right, #f39c12, #e84393);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
 }
